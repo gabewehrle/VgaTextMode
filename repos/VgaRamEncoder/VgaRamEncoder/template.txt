@@ -1,0 +1,30 @@
+This is the VGA Ram Encoder template file. This file outlines what input the
+VGA Ram Encoder supports. In its simplest form, a plain text, UTF-8 encoded text
+file can be encoded. However, to take full advantage of all the features of VGA
+text mode, two different escape sequences are supported:
+
+To change foreground and background color, use a backslash followed by '^'.
+Then, specify two hex digits. The first digit specifies the foreground color,
+and the second specifies the background. For example:
+
+\^47This text is red on white.\^0x70This text is white on black. No space is needed after
+the escape sequence. The hex literal may be proceeded by '0x', but is not
+necessary.
+
+A character can also be specified using a hex, decimal, or binary literal.
+For example:
+\0x40 <- This is '@' using hex. \0d64 <- This is '@' using decimal.
+\0b01000000 <- This is '@' using binary (all 8 digits do not need to be included).
+
+Each line can be a maximum of 80 characters long, and the file can have a max of
+30 rows. However, notice how escape sequences for colors do not count against
+the character limit. Additionally, character escape sequences only count against
+the limit by 1.
+
+Here's information regarding how the default color pallette is mapped:
+ 0x00 | 0x01 | 0x02 | 0x03 | 0x04 | 0x05 | 0x06 | 0x07 |
+ Black| Blue | Green| Cyan | Red  | Pink |Yellow| White|
+
+The next 8 colors are lower intensity versions of the first 8.
+
+01234567890123456789012345678901234567890123456789012345678901234567890123456789

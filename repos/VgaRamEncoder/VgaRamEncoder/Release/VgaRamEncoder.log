@@ -1,0 +1,8 @@
+﻿  VGADisplay.cpp
+  VgaRamEncoder.cpp
+  Generating code
+  512 of 542 functions (94.5%) were compiled, the rest were copied from previous compilation.
+    290 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  VgaRamEncoder.vcxproj -> C:\Users\gabew\source\repos\VgaRamEncoder\Release\VgaRamEncoder.exe
