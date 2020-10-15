@@ -1,0 +1,120 @@
+Archive Project report for DE10_LITE
+Wed May 13 18:48:42 2020
+Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2019  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed May 13 18:48:42 2020 ;
+; Revision Name          ; DE10_LITE                             ;
+; Top-level Entity Name  ; DE10_LITE                             ;
+; Family                 ; MAX 10                                ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Warning: Hierarchical Platform Designer systems and custom IP components(_hw.tcl and associated files) are not archived by the Quartus Archiver
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/wehrle_personal_project.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'DE10_LITE.archive.rpt'
+Info (23030): Evaluation of Tcl script d:/intelfpga_lite/19.1/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4829 megabytes
+    Info: Processing ended: Wed May 13 18:48:42 2020
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++----------------------------------------------------------------------------+
+; Files Archived                                                             ;
++----------------------------------------------------------------------------+
+; File Name                                                                  ;
++----------------------------------------------------------------------------+
+; char_ram.qip                                                               ;
+; char_ram.v                                                                 ;
+; char_ram_bb.v                                                              ;
+; char_ram_inst.v                                                            ;
+; char_row_counter.v                                                         ;
+; check_display.v                                                            ;
+; check_horiz_sync.v                                                         ;
+; check_vert_sync.v                                                          ;
+; color_pallette1.v                                                          ;
+; color_pallette2.v                                                          ;
+; color_pallette3.v                                                          ;
+; color_pallette4.v                                                          ;
+; DE10_LITE.qpf                                                              ;
+; DE10_LITE.qsf                                                              ;
+; DE10_LITE.SDC                                                              ;
+; DE10_LITE.sdc                                                              ;
+; de10_lite.v                                                                ;
+; DE10_LITE_assignment_defaults.qdf                                          ;
+; example_color.hex                                                          ;
+; font.hex                                                                   ;
+; glyph_rom.qip                                                              ;
+; glyph_rom.v                                                                ;
+; glyph_rom_bb.v                                                             ;
+; glyph_rom_inst.v                                                           ;
+; horiz_counter.v                                                            ;
+; pallette_controller.v                                                      ;
+; pulse_generator.v                                                          ;
+; resources/documentation.pdf                                                ;
+; resources/ram_encoder/example.txt                                          ;
+; resources/ram_encoder/example_color.hex                                    ;
+; resources/ram_encoder/template.txt                                         ;
+; resources/ram_encoder/VgaRamEncoder.exe                                    ;
+; resources/rtl.pdf                                                          ;
+; vert_counter.v                                                             ;
+; vga_clock/synthesis/../../vga_clock.qsys                                   ;
+; vga_clock/synthesis/../../vga_clock.sopcinfo                               ;
+; vga_clock/synthesis/../vga_clock.cmp                                       ;
+; vga_clock/synthesis/submodules/altera_up_altpll.v                          ;
+; vga_clock/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v ;
+; vga_clock/synthesis/submodules/vga_clock_video_pll_0.v                     ;
+; vga_clock/synthesis/vga_clock.debuginfo                                    ;
+; vga_clock/synthesis/vga_clock.qip                                          ;
+; vga_clock/synthesis/vga_clock.v                                            ;
+; vga_controller.v                                                           ;
++----------------------------------------------------------------------------+
+
+

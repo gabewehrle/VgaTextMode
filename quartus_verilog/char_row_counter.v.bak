@@ -1,0 +1,30 @@
+//Keep track of the current char we're drawing inside the frame buffer
+//Only incremement when EN is HI
+//Reset brings the address back to 0
+module vert_counter(Q, EN, CLK, RST);
+
+output reg [12:0] Q; //13 bits needed for up to 4800
+input EN, CLK, RST;
+
+//Make sure everything's in a known state
+initial
+begin
+	Q <= 0;
+end
+
+//Mem address = ((valid h_addr / 8) + ((valid v_addr / 16) * 80))*2 <-- Should be 81???
+
+always @(posedge CLK)
+begin
+	//Check reset condition
+	if (RST)
+		Q <= 0;
+	//Rollover if we hit max
+	else if (Q == 4798)
+		Q <= 0;
+	//Check that we're supposed to increment
+	else if (EN)
+		Q <= Q + 1;
+end
+
+endmodule

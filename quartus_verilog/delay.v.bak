@@ -1,0 +1,12 @@
+module delay();
+	parameter DELAY = number_of_clock_cycles_you_want_to_delay_by;
+
+	reg [DELAY-1:0] shift_reg;
+
+	always @(posedge clk)
+		 begin
+				 shift_reg <= { shift_reg[DELAY-2:0], signal_you_want_to_delay};
+		 end
+
+	assign delayed_signal = shift_reg[DELAY-1];
+endmodule

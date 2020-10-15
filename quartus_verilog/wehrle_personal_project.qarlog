@@ -1,0 +1,55 @@
+Quartus Prime Archive log --	C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/wehrle_personal_project.qarlog
+
+Archive:	C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/wehrle_personal_project.qar
+Date:		Wed May 13 18:48:42 2020
+Quartus Prime		19.1.0 Build 670 09/22/2019 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.SDC
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.qpf
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.qsf
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.sdc
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE_assignment_defaults.qdf
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram.qip
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram_bb.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram_inst.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_row_counter.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_display.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_horiz_sync.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_vert_sync.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/color_pallette1.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/color_pallette2.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/color_pallette3.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/color_pallette4.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/de10_lite.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/example_color.hex
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/font.hex
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom.qip
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom_bb.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom_inst.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/horiz_counter.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/pallette_controller.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/pulse_generator.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/resources/documentation.pdf
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/resources/ram_encoder/VgaRamEncoder.exe
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/resources/ram_encoder/example.txt
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/resources/ram_encoder/example_color.hex
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/resources/ram_encoder/template.txt
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/resources/rtl.pdf
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vert_counter.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock.qsys
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock.sopcinfo
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_altpll.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/vga_clock_video_pll_0.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/synthesis/vga_clock.debuginfo
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/synthesis/vga_clock.qip
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/synthesis/vga_clock.v
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_clock/vga_clock.cmp
+C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_controller.v
+	======= Total: 44 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

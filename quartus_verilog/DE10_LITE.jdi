@@ -1,0 +1,16 @@
+<sld_project_info>
+  <project>
+    <hash md5_digest_80b="9ad8b5129f7c908cfac7"/>
+  </project>
+  <file_info>
+    <file device="10M50DAF484C7G" path="DE10_LITE.sof" usercode="0xFFFFFFFF"/>
+  </file_info>
+  <sld_infos>
+    <sld_info hpath="vga_clock:u0" name="u0">
+      <assignment_values>
+        <assignment_value text="QSYS_NAME vga_clock HAS_SOPCINFO 1 GENERATION_ID 1587842640"/>
+      </assignment_values>
+      <parameters/>
+    </sld_info>
+  </sld_infos>
+</sld_project_info>

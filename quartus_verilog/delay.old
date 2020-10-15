@@ -1,0 +1,17 @@
+module delay(out, in, clk);
+	parameter DELAY = 1;
+	parameter WIDTH = 1;
+	
+	output [WIDTH-1:0] out;
+	input [WIDTH-1:0] in;
+	input clk;
+
+	reg [DELAY-1:0] shift_reg [WIDTH-1:0];
+
+	always @(posedge clk)
+		 begin
+				 shift_reg <= { shift_reg[DELAY-2:0], in};
+		 end
+
+	assign out = shift_reg[DELAY-1];
+endmodule
