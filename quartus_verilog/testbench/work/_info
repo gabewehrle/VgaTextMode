@@ -1,0 +1,284 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/intelFPGA_lite/19.1
+vchar_counter
+Z0 !s110 1588191486
+!i10b 1
+!s100 fl3Po2YPk7>[JFQ[;2d<n2
+I;[TDCcKR11aKfL>f=GU?j1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench
+w1588085336
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_counter.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_counter.v
+L0 4
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1588191486.000000
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_counter.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vchar_ram
+!s110 1588192659
+!i10b 1
+!s100 MaY9Q>aP@=hd6PPK=R41i3
+IE3Ui0BFMH[LeeOZB5@R8z0
+R1
+R2
+w1588192275
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram.v
+Z7 L0 40
+R3
+r1
+!s85 0
+31
+!s108 1588192659.000000
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_ram.v|
+!i113 1
+R5
+R6
+vchar_row_counter
+!s110 1588192959
+!i10b 1
+!s100 g5IZW5_F5dne>VWe`1DVW3
+I5`zE<F9nVWLRHNAJoUEj?2
+R1
+R2
+w1588192952
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_row_counter.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_row_counter.v
+L0 4
+R3
+r1
+!s85 0
+31
+!s108 1588192959.000000
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_row_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/char_row_counter.v|
+!i113 1
+R5
+R6
+vcheck_display
+R0
+!i10b 1
+!s100 <D9IHfIz<_<RI;9QGIOIn2
+I`ofhIi<W8zZT[R_I4l[GI1
+R1
+R2
+w1587131819
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_display.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_display.v
+L0 2
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_display.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_display.v|
+!i113 1
+R5
+R6
+vcheck_horiz_sync
+Z8 !s110 1588191487
+!i10b 1
+!s100 `7WLgT<n@?HSTbK?B_=Cz2
+IY1<8P`f:l^7hOmo1>AQ6T0
+R1
+R2
+w1587132485
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_horiz_sync.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_horiz_sync.v
+L0 2
+R3
+r1
+!s85 0
+31
+Z9 !s108 1588191487.000000
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_horiz_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_horiz_sync.v|
+!i113 1
+R5
+R6
+vcheck_vert_sync
+R8
+!i10b 1
+!s100 lz[O5ke1M96;QoJje]nTS1
+IPz=7EHlOYBVGaHliKoB?Q1
+R1
+R2
+w1587132490
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_vert_sync.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_vert_sync.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_vert_sync.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/check_vert_sync.v|
+!i113 1
+R5
+R6
+vDE10_LITE
+!s110 1588194159
+!i10b 1
+!s100 SDzVbNR:B<d2HJD86_D`[1
+IaK0l3VWjaV4:PNI_@<>X=1
+R1
+R2
+w1588194147
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1588194159.000000
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v|
+!i113 1
+R5
+R6
+n@d@e10_@l@i@t@e
+vglyph_rom
+R8
+!i10b 1
+!s100 2ZhaSdA0QFL<8V4aZ:dKf2
+IoePgL6j0<6nY8dC^0Xm[91
+R1
+R2
+w1588190897
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom.v
+R7
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/glyph_rom.v|
+!i113 1
+R5
+R6
+vhoriz_counter
+R8
+!i10b 1
+!s100 i;7EDcd:MYlcz^3_]iM8K3
+I0OLzl[cd?5K=jAg5CW68D2
+R1
+R2
+w1587137941
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/horiz_counter.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/horiz_counter.v
+L0 4
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/horiz_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/horiz_counter.v|
+!i113 1
+R5
+R6
+vpulse_generator
+R8
+!i10b 1
+!s100 m;1QDJ]^[7XNfKI29mo[W1
+IZ:EolSLcef1b:7nEj6[z00
+R1
+R2
+w1587126581
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/pulse_generator.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/pulse_generator.v
+L0 2
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/pulse_generator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/pulse_generator.v|
+!i113 1
+R5
+R6
+vvert_counter
+R8
+!i10b 1
+!s100 =0^n:@84@^J1zYJGBN^?k3
+I1WOeXoFoh6DPN]Z9[2_Tf1
+R1
+R2
+w1587134516
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vert_counter.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vert_counter.v
+L0 4
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vert_counter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vert_counter.v|
+!i113 1
+R5
+R6
+vvga_controller
+R0
+!i10b 1
+!s100 L1;18C1fhC:0`KQ1G=U6J3
+IYWR2>?8j^@UjGUgnjQTD`2
+R1
+R2
+w1588085471
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_controller.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_controller.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_controller.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/vga_controller.v|
+!i113 1
+R5
+R6
+vvga_ram_tb
+R8
+!i10b 1
+!s100 ZTVAY[IN2l=1eKNnm`mm30
+If90G=DhfAKz_o6N3[1RF30
+R1
+R2
+w1588088018
+8C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v
+FC:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v|
+!i113 1
+R5
+R6

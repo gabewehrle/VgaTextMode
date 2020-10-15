@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deploy
+ date="2020.04.25.15:24:08"
+ outputDirectory="D:/Quartus Prime Projects/vga_ram/vga_clock/">
+ <perimeter>
+  <parameter
+     name="AUTO_GENERATION_ID"
+     type="Integer"
+     defaultValue="0"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_UNIQUE_ID"
+     type="String"
+     defaultValue=""
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_FAMILY"
+     type="String"
+     defaultValue="MAX 10"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE"
+     type="String"
+     defaultValue="10M50DAF484C7G"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_DEVICE_SPEEDGRADE"
+     type="String"
+     defaultValue="7"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_REF_CLK_CLOCK_RATE"
+     type="Long"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_REF_CLK_CLOCK_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <parameter
+     name="AUTO_REF_CLK_RESET_DOMAIN"
+     type="Integer"
+     defaultValue="-1"
+     onHdl="0"
+     affectsHdl="1" />
+  <interface name="ref_clk" kind="clock" start="0">
+   <property name="clockRate" value="0" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="ref_clk_clk" direction="input" role="clk" width="1" />
+  </interface>
+  <interface name="ref_reset" kind="reset" start="0">
+   <property name="associatedClock" value="ref_clk" />
+   <property name="synchronousEdges" value="DEASSERT" />
+   <port name="ref_reset_reset" direction="input" role="reset" width="1" />
+  </interface>
+  <interface name="reset_source" kind="reset" start="1">
+   <property name="associatedClock" value="" />
+   <property name="associatedDirectReset" value="" />
+   <property name="associatedResetSinks" value="none" />
+   <property name="synchronousEdges" value="NONE" />
+   <port name="reset_source_reset" direction="output" role="reset" width="1" />
+  </interface>
+  <interface name="vga_clk" kind="clock" start="1">
+   <property name="associatedDirectClock" value="" />
+   <property name="clockRate" value="25000000" />
+   <property name="clockRateKnown" value="true" />
+   <property name="externallyDriven" value="false" />
+   <property name="ptfSchematicName" value="" />
+   <port name="vga_clk_clk" direction="output" role="clk" width="1" />
+  </interface>
+ </perimeter>
+ <entity
+   path=""
+   parameterizationKey="vga_clock:1.0:AUTO_DEVICE=10M50DAF484C7G,AUTO_DEVICE_FAMILY=MAX 10,AUTO_DEVICE_SPEEDGRADE=7,AUTO_GENERATION_ID=1587842640,AUTO_REF_CLK_CLOCK_DOMAIN=-1,AUTO_REF_CLK_CLOCK_RATE=-1,AUTO_REF_CLK_RESET_DOMAIN=-1,AUTO_UNIQUE_ID=(altera_up_avalon_video_pll:18.0:AUTO_DEVICE=10M50DAF484C7G,AUTO_DEVICE_SPEEDGRADE=7,camera=5MP Digital Camera (THDB_D5M),device_family=MAX 10,gui_refclk=50.0,gui_resolution=VGA 640x480,lcd=7&quot; LCD on VEEK-MT and MTL/MTL2 Modules,lcd_clk_en=false,refclk=50.0,resolution=VGA 640x480,vga_clk_en=true,video_in_clk_en=false(altera_up_altpll:18.0:DEVICE_FAMILY=MAX 10,OUTCLK0_DIV=2,OUTCLK0_MULT=1,OUTCLK1_DIV=2,OUTCLK1_MULT=1,OUTCLK2_DIV=3,OUTCLK2_MULT=2,PHASE_SHIFT=0,audio_clk_freq=12.288,gui_device_family=MAX 10,type=Video,video_in=5MP Digital Camera (THDB_D5M),video_out=7&quot; LCD on VEEK-MT and MTL/MTL2 Modules)(altera_up_avalon_reset_from_locked_signal:18.0:)(conduit:19.1:endPort=,endPortLSB=0,startPort=,startPortLSB=0,width=0))"
+   instancePathKey="vga_clock"
+   kind="vga_clock"
+   version="1.0"
+   name="vga_clock">
+  <parameter name="AUTO_GENERATION_ID" value="1587842640" />
+  <parameter name="AUTO_DEVICE" value="10M50DAF484C7G" />
+  <parameter name="AUTO_DEVICE_FAMILY" value="MAX 10" />
+  <parameter name="AUTO_REF_CLK_CLOCK_RATE" value="-1" />
+  <parameter name="AUTO_UNIQUE_ID" value="" />
+  <parameter name="AUTO_REF_CLK_CLOCK_DOMAIN" value="-1" />
+  <parameter name="AUTO_REF_CLK_RESET_DOMAIN" value="-1" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <generatedFiles>
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/vga_clock.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/vga_clock_video_pll_0.v"
+       type="VERILOG" />
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_altpll.v"
+       type="VERILOG"
+       attributes="TOP_LEVEL_FILE" />
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v"
+       type="VERILOG"
+       attributes="TOP_LEVEL_FILE" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file path="D:/Quartus Prime Projects/vga_ram/vga_clock.qsys" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_avalon_video_pll/altera_up_avalon_video_pll_hw.tcl" />
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_altpll/altera_up_altpll_hw.tcl" />
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_avalon_reset_from_locked_signal/altera_up_avalon_reset_from_locked_signal_hw.tcl" />
+  </childSourceFiles>
+  <messages>
+   <message level="Debug" culprit="vga_clock">queue size: 0 starting:vga_clock "vga_clock"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>1</b> modules, <b>0</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="vga_clock"><![CDATA["<b>vga_clock</b>" reuses <b>altera_up_avalon_video_pll</b> "<b>submodules/vga_clock_video_pll_0</b>"]]></message>
+   <message level="Debug" culprit="vga_clock">queue size: 0 starting:altera_up_avalon_video_pll "submodules/vga_clock_video_pll_0"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>2</b> modules, <b>1</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="video_pll_0"><![CDATA["<b>video_pll_0</b>" reuses <b>altera_up_altpll</b> "<b>submodules/altera_up_altpll</b>"]]></message>
+   <message level="Debug" culprit="video_pll_0"><![CDATA["<b>video_pll_0</b>" reuses <b>altera_up_avalon_reset_from_locked_signal</b> "<b>submodules/altera_up_avalon_reset_from_locked_signal</b>"]]></message>
+   <message level="Info" culprit="video_pll_0"><![CDATA["<b>vga_clock</b>" instantiated <b>altera_up_avalon_video_pll</b> "<b>video_pll_0</b>"]]></message>
+   <message level="Debug" culprit="vga_clock">queue size: 1 starting:altera_up_altpll "submodules/altera_up_altpll"</message>
+   <message level="Info" culprit="video_pll"><![CDATA["<b>video_pll_0</b>" instantiated <b>altera_up_altpll</b> "<b>video_pll</b>"]]></message>
+   <message level="Debug" culprit="vga_clock">queue size: 0 starting:altera_up_avalon_reset_from_locked_signal "submodules/altera_up_avalon_reset_from_locked_signal"</message>
+   <message level="Info" culprit="reset_from_locked"><![CDATA["<b>video_pll_0</b>" instantiated <b>altera_up_avalon_reset_from_locked_signal</b> "<b>reset_from_locked</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_video_pll:18.0:AUTO_DEVICE=10M50DAF484C7G,AUTO_DEVICE_SPEEDGRADE=7,camera=5MP Digital Camera (THDB_D5M),device_family=MAX 10,gui_refclk=50.0,gui_resolution=VGA 640x480,lcd=7&quot; LCD on VEEK-MT and MTL/MTL2 Modules,lcd_clk_en=false,refclk=50.0,resolution=VGA 640x480,vga_clk_en=true,video_in_clk_en=false(altera_up_altpll:18.0:DEVICE_FAMILY=MAX 10,OUTCLK0_DIV=2,OUTCLK0_MULT=1,OUTCLK1_DIV=2,OUTCLK1_MULT=1,OUTCLK2_DIV=3,OUTCLK2_MULT=2,PHASE_SHIFT=0,audio_clk_freq=12.288,gui_device_family=MAX 10,type=Video,video_in=5MP Digital Camera (THDB_D5M),video_out=7&quot; LCD on VEEK-MT and MTL/MTL2 Modules)(altera_up_avalon_reset_from_locked_signal:18.0:)(conduit:19.1:endPort=,endPortLSB=0,startPort=,startPortLSB=0,width=0)"
+   instancePathKey="vga_clock:.:video_pll_0"
+   kind="altera_up_avalon_video_pll"
+   version="18.0"
+   name="vga_clock_video_pll_0">
+  <parameter name="lcd_clk_en" value="false" />
+  <parameter name="gui_refclk" value="50.0" />
+  <parameter name="AUTO_DEVICE" value="10M50DAF484C7G" />
+  <parameter name="refclk" value="50.0" />
+  <parameter name="device_family" value="MAX 10" />
+  <parameter name="gui_resolution" value="VGA 640x480" />
+  <parameter name="video_in_clk_en" value="false" />
+  <parameter name="camera" value="5MP Digital Camera (THDB_D5M)" />
+  <parameter name="lcd" value="7&quot; LCD on VEEK-MT and MTL/MTL2 Modules" />
+  <parameter name="vga_clk_en" value="true" />
+  <parameter name="resolution" value="VGA 640x480" />
+  <parameter name="AUTO_DEVICE_SPEEDGRADE" value="7" />
+  <generatedFiles>
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/vga_clock_video_pll_0.v"
+       type="VERILOG" />
+  </generatedFiles>
+  <childGeneratedFiles>
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_altpll.v"
+       type="VERILOG"
+       attributes="TOP_LEVEL_FILE" />
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v"
+       type="VERILOG"
+       attributes="TOP_LEVEL_FILE" />
+  </childGeneratedFiles>
+  <sourceFiles>
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_avalon_video_pll/altera_up_avalon_video_pll_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles>
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_altpll/altera_up_altpll_hw.tcl" />
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_avalon_reset_from_locked_signal/altera_up_avalon_reset_from_locked_signal_hw.tcl" />
+  </childSourceFiles>
+  <instantiator instantiator="vga_clock" as="video_pll_0" />
+  <messages>
+   <message level="Debug" culprit="vga_clock">queue size: 0 starting:altera_up_avalon_video_pll "submodules/vga_clock_video_pll_0"</message>
+   <message level="Progress" culprit="min"></message>
+   <message level="Progress" culprit="max"></message>
+   <message level="Progress" culprit="current"></message>
+   <message level="Debug">Transform: CustomInstructionTransform</message>
+   <message level="Debug">No custom instruction connections, skipping transform </message>
+   <message level="Debug" culprit="merlin_custom_instruction_transform"><![CDATA[After transform: <b>2</b> modules, <b>1</b> connections]]></message>
+   <message level="Debug">Transform: MMTransform</message>
+   <message level="Debug">Transform: InterruptMapperTransform</message>
+   <message level="Debug">Transform: InterruptSyncTransform</message>
+   <message level="Debug">Transform: InterruptFanoutTransform</message>
+   <message level="Debug">Transform: AvalonStreamingTransform</message>
+   <message level="Debug">Transform: ResetAdaptation</message>
+   <message level="Debug" culprit="video_pll_0"><![CDATA["<b>video_pll_0</b>" reuses <b>altera_up_altpll</b> "<b>submodules/altera_up_altpll</b>"]]></message>
+   <message level="Debug" culprit="video_pll_0"><![CDATA["<b>video_pll_0</b>" reuses <b>altera_up_avalon_reset_from_locked_signal</b> "<b>submodules/altera_up_avalon_reset_from_locked_signal</b>"]]></message>
+   <message level="Info" culprit="video_pll_0"><![CDATA["<b>vga_clock</b>" instantiated <b>altera_up_avalon_video_pll</b> "<b>video_pll_0</b>"]]></message>
+   <message level="Debug" culprit="vga_clock">queue size: 1 starting:altera_up_altpll "submodules/altera_up_altpll"</message>
+   <message level="Info" culprit="video_pll"><![CDATA["<b>video_pll_0</b>" instantiated <b>altera_up_altpll</b> "<b>video_pll</b>"]]></message>
+   <message level="Debug" culprit="vga_clock">queue size: 0 starting:altera_up_avalon_reset_from_locked_signal "submodules/altera_up_avalon_reset_from_locked_signal"</message>
+   <message level="Info" culprit="reset_from_locked"><![CDATA["<b>video_pll_0</b>" instantiated <b>altera_up_avalon_reset_from_locked_signal</b> "<b>reset_from_locked</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_altpll:18.0:DEVICE_FAMILY=MAX 10,OUTCLK0_DIV=2,OUTCLK0_MULT=1,OUTCLK1_DIV=2,OUTCLK1_MULT=1,OUTCLK2_DIV=3,OUTCLK2_MULT=2,PHASE_SHIFT=0,audio_clk_freq=12.288,gui_device_family=MAX 10,type=Video,video_in=5MP Digital Camera (THDB_D5M),video_out=7&quot; LCD on VEEK-MT and MTL/MTL2 Modules"
+   instancePathKey="vga_clock:.:video_pll_0:.:video_pll"
+   kind="altera_up_altpll"
+   version="18.0"
+   name="altera_up_altpll">
+  <parameter name="OUTCLK0_DIV" value="2" />
+  <parameter name="OUTCLK2_MULT" value="2" />
+  <parameter name="PHASE_SHIFT" value="0" />
+  <parameter name="OUTCLK1_DIV" value="2" />
+  <parameter name="OUTCLK0_MULT" value="1" />
+  <parameter name="DEVICE_FAMILY" value="MAX 10" />
+  <parameter name="video_in" value="5MP Digital Camera (THDB_D5M)" />
+  <parameter name="gui_device_family" value="MAX 10" />
+  <parameter name="OUTCLK2_DIV" value="3" />
+  <parameter name="OUTCLK1_MULT" value="1" />
+  <generatedFiles>
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_altpll.v"
+       type="VERILOG"
+       attributes="TOP_LEVEL_FILE" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_altpll/altera_up_altpll_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="vga_clock_video_pll_0" as="video_pll" />
+  <messages>
+   <message level="Debug" culprit="vga_clock">queue size: 1 starting:altera_up_altpll "submodules/altera_up_altpll"</message>
+   <message level="Info" culprit="video_pll"><![CDATA["<b>video_pll_0</b>" instantiated <b>altera_up_altpll</b> "<b>video_pll</b>"]]></message>
+  </messages>
+ </entity>
+ <entity
+   path="submodules/"
+   parameterizationKey="altera_up_avalon_reset_from_locked_signal:18.0:"
+   instancePathKey="vga_clock:.:video_pll_0:.:reset_from_locked"
+   kind="altera_up_avalon_reset_from_locked_signal"
+   version="18.0"
+   name="altera_up_avalon_reset_from_locked_signal">
+  <generatedFiles>
+   <file
+       path="D:/Quartus Prime Projects/vga_ram/vga_clock/synthesis/submodules/altera_up_avalon_reset_from_locked_signal.v"
+       type="VERILOG"
+       attributes="TOP_LEVEL_FILE" />
+  </generatedFiles>
+  <childGeneratedFiles/>
+  <sourceFiles>
+   <file
+       path="D:/intelfpga_lite/19.1/ip/altera/university_program/clocks/altera_up_avalon_reset_from_locked_signal/altera_up_avalon_reset_from_locked_signal_hw.tcl" />
+  </sourceFiles>
+  <childSourceFiles/>
+  <instantiator instantiator="vga_clock_video_pll_0" as="reset_from_locked" />
+  <messages>
+   <message level="Debug" culprit="vga_clock">queue size: 0 starting:altera_up_avalon_reset_from_locked_signal "submodules/altera_up_avalon_reset_from_locked_signal"</message>
+   <message level="Info" culprit="reset_from_locked"><![CDATA["<b>video_pll_0</b>" instantiated <b>altera_up_avalon_reset_from_locked_signal</b> "<b>reset_from_locked</b>"]]></message>
+  </messages>
+ </entity>
+</deploy>

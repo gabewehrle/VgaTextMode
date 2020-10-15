@@ -1,0 +1,19 @@
+65536 bytes
+
+8 wide, 16 high for 640x480 (152px)
+80 col, 30 row
+
+2 bytes per char = 4800 bytes
+
+Each row is a byte, with 16 bytes defining a glyph
+
+(H_addr / 8 + (V_addr / 16)*80)*2 --> Frame Buf
+(H_addr >> 3
+
+=(INT(A2/8)+INT(B2/16)*80)*2
+
+start at 144 end at 784 for H (0 - 640)
+start at 35 end at 515 for V (0 - 480)
+
+H from 0 to 200 (1100 1000, wastes 55 addresses per V)
+V from 0 to 65.625

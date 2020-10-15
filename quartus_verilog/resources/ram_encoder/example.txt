@@ -1,0 +1,32 @@
+    Hello, world! This is 80 by 30 text mode! Four different \^401\^606 \^20c\^10o\^30l\^50o\^40r \^60p\^20a\^10l\^30l\^50e\^40t\^60t\^20e\^10s
+\^70are supported. The default includes the three primary colors Red, Green, and
+Blue, their complementary colors, plus black and white. These 8 colors are also
+provided in a darker shade, providing 16 total colors. These colors can be used
+as either a foreground or background color. A 4kb glyph rom contains the font
+you're reading now and supports 256 different characters. Fun fact: the default
+font displayed is the same font used by the IBM XT BIOS! This default text that
+is being printed is specified in an initialization file which is written to the
+character frame buffer on startup.
+
+    The character frame buffer is layed out as following:
+
+                            \^71        +0   +0    +1 \^70
+                            \^71      \0d218\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\^70
+                            \^710x00  \0d179 FG \0d179 BG \0d179 CHAR\^70
+                            \^710x02  \0d179 FG \0d179 BG \0d179 CHAR\^70
+
+    The foreground and background color take up 4 bits each for a total of 1
+byte. The character code takes up a full byte. This means that each character
+takes up a total of 2 bytes. In 80x30 mode, this means that 4.8kb are needed
+to store the whole frame. The glyph rom is layed out as shown:
+
+        \^71         +0     +1     +2     +3     +4     +5    ...    +15 \^70
+        \^71      \0d218\0d196\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d194\0d196\0d196\0d196\0d196\0d196\0d196\^70
+        \^710x00  \0d179 ROW0 \0d179 ROW1 \0d179 ROW2 \0d179 ROW3 \0d179 ROW4 \0d179 ROW5 \0d179 ... \0d179 ROW15\^70
+        \^710x10  \0d179 ROW0 \0d179 ROW1 \0d179 ROW2 \0d179 ROW3 \0d179 ROW4 \0d179 ROW5 \0d179 ... \0d179 ROW15\^70
+
+    Each glyph takes up 16 bytes, with each byte making up 1 of the 16 rows of
+the glyph. \0d01 ^ ` $
+
+//+178 for vertical bar
+//195 for horizontal

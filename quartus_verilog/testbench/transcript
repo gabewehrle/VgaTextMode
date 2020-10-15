@@ -1,0 +1,797 @@
+# Reading D:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.mpf}
+# Loading project vga_ram_testbench
+# Compile of vga_controller.v was successful.
+# Compile of char_counter.v was successful.
+# Compile of char_ram.v was successful.
+# Compile of char_row_counter.v was successful.
+# Compile of check_display.v was successful.
+# Compile of check_horiz_sync.v was successful.
+# Compile of check_vert_sync.v was successful.
+# Compile of DE10_LITE.v was successful.
+# Compile of glyph_rom.v was successful.
+# Compile of horiz_counter.v was successful.
+# Compile of pulse_generator.v was successful.
+# Compile of vert_counter.v was successful.
+# Compile of vga_ram_testbench.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:05:40 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_buffer/rdaddress
+restart -f
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_buffer/q
+quit -sim
+# End time: 16:08:25 on Apr 29,2020, Elapsed time: 0:02:45
+# Errors: 0, Warnings: 56
+# Compile of char_ram.v was successful.
+# Compile of glyph_rom.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:08:33 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_addr
+restart -f
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# BKMARK_ERROR: Unknown client: .main_pane.source
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_buffer/q
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_buffer/sub_wire0
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_buffer/clock
+add wave -position insertpoint  \
+sim:/vga_ram_tb/uut/char_frame_buffer/rdaddress
+restart -f
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf {C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/charcounter.do}
+quit -sim
+# End time: 16:17:04 on Apr 29,2020, Elapsed time: 0:08:31
+# Errors: 1, Warnings: 84
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:17:07 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "char_frame_init.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(871)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+# ERROR: cannot read char_frame_init.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "char_frame_init.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48963)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "font.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(871)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/glyph_rom_inst/altsyncram_component/m_default/altsyncram_inst
+# ERROR: cannot read font.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "font.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/glyph_rom_inst/altsyncram_component/m_default/altsyncram_inst
+quit -sim
+# End time: 16:17:36 on Apr 29,2020, Elapsed time: 0:00:29
+# Errors: 0, Warnings: 32
+# Compile of vga_controller.v was successful.
+# Compile of char_counter.v was successful.
+# Compile of char_ram.v was successful.
+# Compile of char_row_counter.v was successful.
+# Compile of check_display.v was successful.
+# Compile of check_horiz_sync.v was successful.
+# Compile of check_vert_sync.v was successful.
+# Compile of DE10_LITE.v was successful.
+# Compile of glyph_rom.v was successful.
+# Compile of horiz_counter.v was successful.
+# Compile of pulse_generator.v was successful.
+# Compile of vert_counter.v was successful.
+# Compile of vga_ram_testbench.v was successful.
+# 13 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:18:11 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "char_frame_init.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(871)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+# ERROR: cannot read char_frame_init.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "char_frame_init.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48963)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "font.hex" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(871)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/glyph_rom_inst/altsyncram_component/m_default/altsyncram_inst
+# ERROR: cannot read font.hex.
+# ** Warning: (vsim-7) Failed to open readmem file "font.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48977)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/glyph_rom_inst/altsyncram_component/m_default/altsyncram_inst
+quit -sim
+# End time: 16:24:22 on Apr 29,2020, Elapsed time: 0:06:11
+# Errors: 0, Warnings: 32
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:24:33 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+quit -sim
+# End time: 16:26:16 on Apr 29,2020, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 28
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:26:18 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+quit -sim
+# End time: 16:37:35 on Apr 29,2020, Elapsed time: 0:11:17
+# Errors: 0, Warnings: 28
+# Compile of char_ram.v was successful.
+# Compile of char_row_counter.v was successful.
+# Compile of DE10_LITE.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:37:43 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# ** Warning: (vsim-PLI-3412) Memory address read on line 8193 of file "char_frame_init.ver" is out of bounds specified for readmem command.  (Current address [4096], address range [0:4095])    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48963)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+quit -sim
+# End time: 16:41:38 on Apr 29,2020, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 29
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:41:39 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# ** Warning: (vsim-PLI-3412) Memory address read on line 8193 of file "char_frame_init.ver" is out of bounds specified for readmem command.  (Current address [4096], address range [0:4095])    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48963)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+quit -sim
+# End time: 16:42:16 on Apr 29,2020, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 29
+# Compile of char_row_counter.v was successful.
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:42:42 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# ** Warning: (vsim-PLI-3412) Memory address read on line 8193 of file "char_frame_init.ver" is out of bounds specified for readmem command.  (Current address [4096], address range [0:4095])    : /build/swbuild/SJ/nightly/19.1std/670/l64/work/modelsim/eda/sim_lib/altera_mf.v(48963)
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut/char_frame_buffer/altsyncram_component/m_default/altsyncram_inst
+quit -sim
+# End time: 16:43:35 on Apr 29,2020, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 29
+# can't read "Startup(-L)": no such element in array
+# Load canceled
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 16:52:59 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do charcounter.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+quit -sim
+# End time: 17:02:36 on Apr 29,2020, Elapsed time: 0:09:37
+# Errors: 0, Warnings: 28
+# Compile of DE10_LITE.v was successful.
+vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb
+# vsim -L altera_mf_ver -L altera_mf work.vga_ram_tb 
+# Start time: 17:02:43 on Apr 29,2020
+# Loading work.vga_ram_tb
+# Loading work.DE10_LITE
+# Loading work.pulse_generator
+# Loading work.vga_controller
+# Loading work.horiz_counter
+# Loading work.vert_counter
+# Loading work.check_horiz_sync
+# Loading work.check_vert_sync
+# Loading work.check_display
+# Loading work.char_row_counter
+# Loading work.char_ram
+# Loading altera_mf_ver.altsyncram
+# Loading work.glyph_rom
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Too few port connections. Expected 29, found 2.
+#    Time: 0 ps  Iteration: 0  Instance: /vga_ram_tb/uut File: C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/DE10_LITE.v
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'ADC_CLK_10'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'MAX10_CLK2_50'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_ADDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_BA'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CKE'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CLK'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_CS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_DQ'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_LDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_RAS_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_UDQM'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'DRAM_WE_N'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX0'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX1'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX2'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX3'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX4'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'HEX5'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'KEY'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'LEDR'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'SW'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_B'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_G'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_HS'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_R'.
+# ** Warning: (vsim-3722) C:/Users/gabew/Documents/Quartus Prime Projects/vga_ram/testbench/vga_ram_testbench.v(7): [TFMPC] - Missing connection for port 'VGA_VS'.
+do timing.do
+run -all
+# Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
+# Time: 0  Instance: vga_ram_tb.uut.char_frame_buffer.altsyncram_component.m_default.altsyncram_inst
+# End time: 18:00:10 on Apr 29,2020, Elapsed time: 0:57:27
+# Errors: 0, Warnings: 28

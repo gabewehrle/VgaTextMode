@@ -1,0 +1,29 @@
+    Hello, world! This is 80 by 30 text mode! A standard 16 color pallette is
+supported which includes the three primary colors Red, Green, and Blue, their
+complementary colors, plus black and white. These 8 colors are also provided in
+a darker shade, providing 16 total colors. These colors can be used as either a
+foreground or background color. A 4kb glyph rom contains the font you're reading
+now and supports 256 different characters. Fun fact: the default font displayed
+is the same font used by the IBM XT BIOS! This default text that is being
+printed is specified in an initialization file which is written to the character
+frame buffer on startup.
+
+    The character frame buffer is layed out as following:
+
+                                    +0   +0    +1
+                                   _______________
+                            0x00  | FG | BG | CHAR
+                            0x02  | FG | BG | CHAR
+
+    The foreground and background color take up 4 bits each for a total of 1
+byte. The character code takes up a full byte. This means that each character
+takes up a total of 2 bytes. In 80x30 mode, this means that 4.8kb are needed
+to store the whole frame. The glyph rom is layed out as shown:
+
+                 +0     +1     +2     +3     +4     +5    ...   +15
+               ______________________________________________________
+        0x00  | ROW0 | ROW1 | ROW2 | ROW3 | ROW4 | ROW5 | ... | ROW15
+        0x10  | ROW0 | ROW1 | ROW2 | ROW3 | ROW4 | ROW5 | ... | ROW15
+
+    Each glyph takes up 16 bytes, with each byte making up 1 of the 16 rows of
+the glyph.

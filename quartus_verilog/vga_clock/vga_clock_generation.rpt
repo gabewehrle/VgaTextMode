@@ -1,0 +1,17 @@
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate "D:\Quartus Prime Projects\vga_ram\vga_clock.qsys" --synthesis=VERILOG --output-directory="D:\Quartus Prime Projects\vga_ram\vga_clock\synthesis" --family="MAX 10" --part=10M50DAF484C7G
+Progress: Loading vga_ram/vga_clock.qsys
+Progress: Reading input file
+Progress: Adding video_pll_0 [altera_up_avalon_video_pll 18.0]
+Progress: Parameterizing module video_pll_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: vga_clock: Generating vga_clock "vga_clock" for QUARTUS_SYNTH
+Info: video_pll_0: "vga_clock" instantiated altera_up_avalon_video_pll "video_pll_0"
+Info: video_pll: "video_pll_0" instantiated altera_up_altpll "video_pll"
+Info: reset_from_locked: "video_pll_0" instantiated altera_up_avalon_reset_from_locked_signal "reset_from_locked"
+Info: vga_clock: Done "vga_clock" with 4 modules, 4 files
+Info: qsys-generate succeeded.
+Info: Finished: Create HDL design files for synthesis
